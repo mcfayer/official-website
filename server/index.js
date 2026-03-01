@@ -18,7 +18,9 @@ app.use(express.json());
 // Define a basic route
 app.use('/',userRoute);
 // Start the server
-const PORT = process.env.PORT || 3000;
+// const PORT = process.env.PORT || 3000;
 // app.listen(PORT, () => {
 //    console.log(`Server running on http://localhost:${PORT}`);
 // });
+
+export default app;
